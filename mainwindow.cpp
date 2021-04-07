@@ -36,6 +36,10 @@ void MainWindow::on_closeButton_clicked(){
     QApplication::quit();
 }
 
+void MainWindow::on_parseButton_clicked(){
+    drawArea->parce_handwr_data_from_txt();
+}
+
 void MainWindow::on_custom_checkbox_clicked(){
     drawArea->CUSTOM_INPUT =
         ui->custom_checkbox->isChecked();
