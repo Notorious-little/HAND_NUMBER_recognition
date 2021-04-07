@@ -31,7 +31,7 @@ private:
     void setCoordinates();
 
 private slots:
-
+    void on_parseButton_clicked();
     void on_clearButton_clicked();
     void on_drawButton_clicked();
     void on_closeButton_clicked();
